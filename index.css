@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,
+input,
+textarea {
+    font-family: 'Roboto', sans-serif;
+}
+nav,
+h1,
+h3,
+h2,
+a
+{
+    font-family: 'Cinzel', serif;
+}
+header img {
+    height: 252px;
+    width: 252px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+nav {
+    font-weight: 400;
+    font-size: 20px;
+}
+ul, a {
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+}
+.sale a {
+    color: red;
+}
+.categoria {
+    display: flex;
+    justify-content: space-evenly;
+}
+.categoria a:hover {
+    color: #cce;
+}
+.categoria .sale a:hover{
+    color: white;
+}
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+.produto img {
+    height: 400px;
+    width: 400px;
+    margin-top: 50px;
+}
+.container .produto h3,
+p{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+}
+.container .produto h3 {
+    margin-top: 10px;
+}
+.parcela {
+    color: #a2a2a2;
+}
+section .container {
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+#metodo-contato .container {
+    flex-wrap: wrap;
+    display: grid;
+    justify-content: space-evenly;
+}
+#metodo-contato .container .contato
+form input,
+form textarea,
+form button {
+    flex-wrap: wrap;
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    margin-left: 12px;
+}
+form button{
+    background-color: #171717;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+form textarea {
+    resize: none;
+}
+.social-links img {
+    height: 24px;
+}
+.social-links ul,
+.contato ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 8px;
+}
+#metodo-contato .container {
+    display: flex;
+    justify-content: space-evenly;
+}
+#metodo-contato .container
+h1,
+h2,
+h3 {
+    margin: 13px;
+}
+#metodo-contato .container ul {
+    margin: 12px;
+}
+footer {
+    color: #000;
+    padding: 10px 0;
+    opacity: 75%;
+}
+.meio-contato li {
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
